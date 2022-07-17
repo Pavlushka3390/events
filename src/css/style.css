@@ -1,0 +1,295 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2vw;
+  color: rgb(0, 0, 0);
+}
+
+.cell {
+  width: 8vw;
+  height: 8vw;
+  background-color: rgb(144, 177, 11);
+  margin: 0.5vw;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+.center-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.game-field {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+
+  width: 36vw;
+  height: 36vw;
+}
+
+.game {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+
+  flex-direction: column;
+
+  width: 100%;
+  height: 100%;
+}
+
+.control {
+  height: 5vw;
+  color: rgb(200, 15, 111);
+  background-color: black;
+  margin: 0.5vw;
+  font-size: 2vw;
+  padding: 0.5vw;
+  border-radius: 5%;
+}
+
+.table-cell {
+  color: rgb(206, 25, 106);
+  background-color: black;
+  border: 0.3vw solid green;
+  text-align: center;
+  padding: 0.5vw;
+}
+
+.root {
+  height: 100%;
+  width: 100%;
+}
+
+.controls {
+  height: 8vw;
+}
+
+.flex-column {
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.cell-target {
+}
+
+.cell-target-defeat {
+  background-color: rgb(203, 28, 112);
+}
+
+.game-table-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 3vw;
+  padding: 1vw;
+  color: black;
+  border: 0.5vw solid rgb(213, 11, 135);
+  margin-bottom: 1vw;
+}
+
+.end-message {
+  text-align: center;
+  font-size: 3vw;
+  padding: 1vw;
+  color: black;
+  border: 0.5vw solid rgb(227, 20, 158);
+}
+
+.task-field {
+  margin-top: 2vw;
+  width: 100%;
+  height: 100%;
+}
+
+.task {
+  width: 90%;
+  height: 3vw;
+  font-size: 2.5vw;
+  border-radius: 1vw;
+  border: 0.2vw solid black;
+  padding: 0.2vw 1vw;
+  margin: 1vw 1vw;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.task-name {
+  text-align: center;
+}
+
+.task-state-block {
+  border-radius: 50%;
+  width: 2vw;
+  height: 2vw;
+  border: 0.2vw solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.task-state-img {
+  width: 95%;
+  height: 95%;
+  padding: 0.1vw;
+}
+
+.tasks {
+  padding: 1vw;
+  margin: 1vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  width: 50vw;
+  height: 100%;
+
+  border: 0.5vw solid green;
+}
+
+.tasks-block {
+  margin: 1vw;
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.tasks-block input {
+  width: 90%;
+  padding: 1vw;
+  margin: 1vw;
+  align-self: center;
+}
+
+.task-list {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.error-message {
+  color: red;
+  font-weight: bold;
+}
+
+.gallery {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+}
+
+.gallery-card-list {
+  margin: 2vw;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.gallery-card {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 1vw;
+  border: 0.2vw solid green;
+  margin-right: 3vw;
+  margin-bottom: 5vw;
+}
+
+.card-close-button {
+  position: absolute;
+  right: -1.5vw;
+  top: -1.5vw;
+  width: 3vw;
+  height: 3vw;
+  border-radius: 50%;
+  border: 0.5vw solid black;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.close-img {
+  width: 60%;
+  height: 60%;
+}
+
+.gallery-img {
+  width: 18vw;
+}
+
+.tasks-block-empty-msg {
+}
+
+.input-form {
+  width: 50%;
+  border: 0.2vw solid green;
+  margin: 2vw;
+  border-radius: 1vw;
+  padding: 2vw;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+
+.input-button {
+  margin-top: 2vw;
+  font-size: 2vw;
+  border: 0.2vw solid green;
+  border-radius: 1vw;
+  padding: 0.2vw 1vw;
+}
+
+.input-field {
+  width: 100%;
+}
+
+.input-line {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin: 1vw;
+}
+
+.input-label {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+.input-field input {
+  width: 50%;
+  padding: 0.5vw;
+}
+
+.hide {
+  display: none;
+}
